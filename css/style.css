@@ -372,10 +372,13 @@ label::after {
   }
 }
 /* ====== Media Queries ====== */
-@media only screen and (max-width: 500px) {
- .navbar-collapse {
+@media (orientation: landscape) and (max-width:800px) {
+.navbar-collapse {
 overflow-y:scroll !important;
+} 
 }
+@media only screen and (max-width: 500px) {
+ 
   .logo {
     width: 170px;
   }
