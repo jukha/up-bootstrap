@@ -20,10 +20,6 @@ body {
 .navbar {
   box-shadow: 0 2px 5px #bfbfbf;
 }
-.navbar-collapse{
-  overflow-y:scroll;
-  
-}
 .logo {
   max-width: 400px;
   height: 80px;
@@ -34,6 +30,7 @@ body {
 }
 .navbar-collapse {
   padding: 10px;
+    overflow-y:scroll !important;
 }
 .hamburger {
   font-size: 26px;
