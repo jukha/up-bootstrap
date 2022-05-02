@@ -30,7 +30,7 @@ body {
 }
 .navbar-collapse {
   padding: 10px;
-    overflow-y:scroll !important;
+    
 }
 .hamburger {
   font-size: 26px;
@@ -371,9 +371,11 @@ label::after {
     height: 50px;
   }
 }
-
 /* ====== Media Queries ====== */
 @media only screen and (max-width: 500px) {
+ .navbar-collapse {
+overflow-y:scroll !important;
+}
   .logo {
     width: 170px;
   }
