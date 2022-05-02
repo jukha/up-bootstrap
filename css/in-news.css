@@ -1,0 +1,33 @@
+article {
+  padding: 30px 50px;
+  height: 400px;
+  overflow-y: scroll;
+}
+article.first {
+  color: #333333;
+}
+article.first p span {
+  color: #296ac0;
+}
+article.first em span,
+article.three em span {
+  color: #830380;
+}
+.color-gray {
+  color: #938780;
+}
+.fs-14 {
+  font-size: 14px;
+}
+article.second {
+  color: #000;
+}
+
+@media all and (max-width:650px){
+  article{
+    padding: 0px;
+  }
+  h1,h2{
+    font-size: 20px;
+  }
+}
